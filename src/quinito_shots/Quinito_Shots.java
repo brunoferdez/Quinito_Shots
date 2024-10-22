@@ -16,6 +16,7 @@ public class Quinito_Shots {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Iniciando...");
+        System.out.println("");
     }
     
 }
