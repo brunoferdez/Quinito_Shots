@@ -8,6 +8,6 @@ package quinito_shots;
  *
  * @author bruno
  */
-public class Control {
+public class ModeloQuinito {
     
 }
