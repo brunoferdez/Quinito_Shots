@@ -15,9 +15,12 @@ public class Quinito_Shots {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Iniciando...");
-        System.out.println("");
-        System.out.println("");
+        System.out.println("Iniciando ...");
+        ModeloQuinito modelo = new ModeloQuinito();
+        Ventana1Quinito ventana1 = new Ventana1Quinito();
+        Ventana2Quinito ventana2 = new Ventana2Quinito();
+        ControlQuinito control = new ControlQuinito(modelo, ventana1, ventana2);
+        control.iniciarControl();
     }
     
 }
