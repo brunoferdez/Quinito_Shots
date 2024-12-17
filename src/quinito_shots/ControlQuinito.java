@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author bruno
+ * @author dam2
  */
 public class ControlQuinito implements ActionListener {
     private ModeloQuinito modelo;
@@ -39,11 +39,13 @@ public class ControlQuinito implements ActionListener {
                 ventana1.setVisible(false);
                 ventana2.setVisible(true);
                 break;
+            case "Reglas":
+                System.out.println(modelo.getReglas());
+                break;
         }
     }
 
     void iniciarControl() {
-        ventana1.setTitle(modelo.getTitulo());
         ventana1.setVisible(true);
         ventana2.setVisible(false);
     }

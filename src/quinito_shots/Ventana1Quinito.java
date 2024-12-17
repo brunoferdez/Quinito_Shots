@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author bruno
+ * @author dam2
  */
 public class Ventana1Quinito extends javax.swing.JFrame {
 
@@ -36,6 +36,11 @@ public class Ventana1Quinito extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         iniciar.setText("INICIAR");
+        iniciar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                iniciarActionPerformed(evt);
+            }
+        });
 
         opciones.setText("Opciones");
 
@@ -68,6 +73,10 @@ public class Ventana1Quinito extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void iniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iniciarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_iniciarActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem apodo;
